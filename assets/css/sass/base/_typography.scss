@@ -1,0 +1,86 @@
+body{
+    font-family: $raleway;
+}
+.principal-title{
+    font-family: $old-standar!important;
+    font-size: $x-large;
+    text-align: left;
+    margin-left: 35px;
+    font-weight: $bold!important;
+    padding: 30px;
+    color: $smoky-black;
+    @media (min-width:768px){
+        padding:20px;
+        width: 50%;
+        text-align: left;
+    }
+    @media (min-width:1080px){
+        font-size: $xxx-large;
+        width: 30%;
+    }
+}
+.text__paragraph{
+    margin-top: -40px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 30px;
+    text-align: left;
+    @media (min-width:768px){
+        padding: 30px;
+        text-align: left;
+        font-size: $medium;
+        width: 50%;
+    }
+    @media (min-width:1080px){
+        font-size: $x-large;
+        width: 30%;
+        padding: 30px;
+    }
+
+}
+.text__button{
+    padding: 40px;
+    margin-left: 30px;
+    @media (min-width:768px){
+        padding: 20px;
+    }
+    @media (min-width:1080px){
+        font-size: $xx-large;
+        padding:30px;
+        size: normal;
+
+    }
+}
+.news-title{
+    font-family: $old-standar!important;
+    font-size: $x-large;
+    font-weight: $regular;
+    color: $white;
+    @media (min-width:1080px){
+        font-size: $xx-large;}
+}
+.navbar-brand{
+    font-family: $old-standar;
+    font-size: $xx-large;
+    font-weight: $regular;
+    color: $white!important;
+    background-color: $smoky-black;
+    transform: rotate(-90deg);
+    @media (max-width:378px){
+        transform: rotate(0deg);
+        font-size: $medium;
+    }
+}
+.form-control{
+    font-family: $raleway!important;
+    font-size: $small !important;
+    font-weight:$regular;
+    color: $smoky-black!important;
+    border-radius: 0%;
+    width: auto;
+    @media (min-width:1080px){
+        width: 100%;
+}}
+.form__label{
+    font-family: $old-standar!important;
+}

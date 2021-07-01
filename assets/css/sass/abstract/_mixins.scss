@@ -1,0 +1,6 @@
+
+  @mixin screen-view($min-size) {
+    @media (min-width: #{$min-size}) {
+      @content;
+    }
+  }

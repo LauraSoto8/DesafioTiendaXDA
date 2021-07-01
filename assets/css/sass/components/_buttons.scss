@@ -1,0 +1,26 @@
+.btn-secondary,.btn{
+    color:$smoky-black;
+    background-color: $white;
+    border-radius: 0%;
+    size: normal;
+    size: small;
+&:hover{
+    border-color: $light-gray;
+    color:$smoky-black;
+    background-color: $white !important;
+&:focus{
+    border-color: $light-gray!important;
+    color:$light-gray !important;
+    background-color: $white!important;
+}    
+}
+}
+.btn-suscription{
+    font-family: $old-standar;
+    color:$smoky-black!important;
+    background-color: $white!important;
+    border-radius: 0% !important;
+    font-weight: $bold;
+}
+
+
